@@ -1,0 +1,251 @@
+{
+  "url": "https://opportunity.nebraska.gov/",
+  "sanitizedPath": "/index",
+  "autoDetect": false,
+  "mapping": [
+    {
+      "id": "1",
+      "path": "/nav",
+      "sections": [
+        {
+          "id": "1-1",
+          "blocks": [
+            {
+              "id": "box-id-1415907407",
+              "x": 0,
+              "y": 0,
+              "width": 2899,
+              "height": 92,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/header[1]",
+              "layout": {
+                "numCols": 5,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"et-boc\")/header[@class=\"et-l et-l--header\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_0_tb_header et_pb_with_background et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_0_tb_header et_pb_gutters1 et_pb_row_5col\"]/div[@class=\"et_pb_column et_pb_column_1_5 et_pb_column_0_tb_header et_pb_css_mix_blend_mode_passthrough\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/header[1]/div[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"et-boc\")/header[@class=\"et-l et-l--header\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_0_tb_header et_pb_with_background et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_0_tb_header et_pb_gutters1 et_pb_row_5col\"]/div[@class=\"et_pb_column et_pb_column_1_5 et_pb_column_1_tb_header et_pb_css_mix_blend_mode_passthrough\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/header[1]/div[1]/div[1]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"et-boc\")/header[@class=\"et-l et-l--header\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_0_tb_header et_pb_with_background et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_0_tb_header et_pb_gutters1 et_pb_row_5col\"]/div[@class=\"et_pb_column et_pb_column_1_5 et_pb_column_2_tb_header et_pb_css_mix_blend_mode_passthrough\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/header[1]/div[1]/div[1]/div[1]/div[4]",
+                  "xpathWithDetails": "id(\"et-boc\")/header[@class=\"et-l et-l--header\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_0_tb_header et_pb_with_background et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_0_tb_header et_pb_gutters1 et_pb_row_5col\"]/div[@class=\"et_pb_column et_pb_column_1_5 et_pb_column_3_tb_header et_pb_css_mix_blend_mode_passthrough\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/header[1]/div[1]/div[1]/div[1]/div[5]",
+                  "xpathWithDetails": "id(\"et-boc\")/header[@class=\"et-l et-l--header\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_0_tb_header et_pb_with_background et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_0_tb_header et_pb_gutters1 et_pb_row_5col\"]/div[@class=\"et_pb_column et_pb_column_1_5 et_pb_column_4_tb_header et_pb_css_mix_blend_mode_passthrough et-last-child\"]"
+                }
+              ],
+              "color": "rgb(148, 0, 211)",
+              "mapping": "header",
+              "customBlockName": "header"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "path": "/index",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-1730835740",
+              "x": 0,
+              "y": 92,
+              "width": 2899,
+              "height": 684,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]",
+              "layout": {
+                "numCols": 1,
+                "numRows": 2
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"post-79\")/div[@class=\"entry-content\"]/div[@class=\"et-l et-l--post\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_0 et_pb_with_background et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_0 et_pb_row_1-4_3-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"post-79\")/div[@class=\"entry-content\"]/div[@class=\"et-l et-l--post\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_0 et_pb_with_background et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_1\"]"
+                }
+              ],
+              "color": "rgba(75, 0, 130, 0.3)",
+              "mapping": "hero",
+              "customBlockName": "ai-hero-1"
+            },
+            {
+              "id": "box-id-1730835771",
+              "x": 0,
+              "y": 776,
+              "width": 2899,
+              "height": 759,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(75, 0, 130, 0.3)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-text-1"
+            },
+            {
+              "id": "box-id-1730835802",
+              "x": 0,
+              "y": 1535,
+              "width": 2899,
+              "height": 585,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]",
+              "layout": {
+                "numCols": 4,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"post-79\")/div[@class=\"entry-content\"]/div[@class=\"et-l et-l--post\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_2 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider\"]/div[@class=\"et_pb_row et_pb_row_7 et_pb_row_fullwidth et_pb_equal_columns et_pb_gutters1 et_pb_row_4col\"]/div[@class=\"et_pb_column et_pb_column_1_4 et_pb_column_7 et_pb_css_mix_blend_mode_passthrough\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"post-79\")/div[@class=\"entry-content\"]/div[@class=\"et-l et-l--post\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_2 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider\"]/div[@class=\"et_pb_row et_pb_row_7 et_pb_row_fullwidth et_pb_equal_columns et_pb_gutters1 et_pb_row_4col\"]/div[@class=\"et_pb_column et_pb_column_1_4 et_pb_column_8 et_pb_css_mix_blend_mode_passthrough\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"post-79\")/div[@class=\"entry-content\"]/div[@class=\"et-l et-l--post\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_2 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider\"]/div[@class=\"et_pb_row et_pb_row_7 et_pb_row_fullwidth et_pb_equal_columns et_pb_gutters1 et_pb_row_4col\"]/div[@class=\"et_pb_column et_pb_column_1_4 et_pb_column_9 et_pb_css_mix_blend_mode_passthrough\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[4]",
+                  "xpathWithDetails": "id(\"post-79\")/div[@class=\"entry-content\"]/div[@class=\"et-l et-l--post\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_2 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider\"]/div[@class=\"et_pb_row et_pb_row_7 et_pb_row_fullwidth et_pb_equal_columns et_pb_gutters1 et_pb_row_4col\"]/div[@class=\"et_pb_column et_pb_column_1_4 et_pb_column_10 et_pb_css_mix_blend_mode_passthrough et-last-child\"]"
+                }
+              ],
+              "color": "rgba(75, 0, 130, 0.3)",
+              "mapping": "cards",
+              "customBlockName": "ai-cards-1"
+            },
+            {
+              "id": "box-id-1360898668",
+              "x": 809,
+              "y": 2217,
+              "width": 1280,
+              "height": 45,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(75, 0, 130, 0.2)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-text-2"
+            },
+            {
+              "id": "box-id-1360898699",
+              "x": 809,
+              "y": 2297,
+              "width": 1280,
+              "height": 998,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]",
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"post-79\")/div[@class=\"entry-content\"]/div[@class=\"et-l et-l--post\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_3 et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_8\"]/div[@class=\"et_pb_column et_pb_column_4_4 et_pb_column_11 et_pb_css_mix_blend_mode_passthrough et-last-child\"]/div[@class=\"et_pb_module et_pb_blog_0 et_pb_blog_grid_wrapper et_pb_bg_layout_light\"]/div[@class=\"et_pb_blog_grid clearfix\"]/div[@class=\"et_pb_ajax_pagination_container\"]/div[@class=\"et_pb_salvattore_content\"]/div[@class=\"column size-1of3\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"post-79\")/div[@class=\"entry-content\"]/div[@class=\"et-l et-l--post\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_3 et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_8\"]/div[@class=\"et_pb_column et_pb_column_4_4 et_pb_column_11 et_pb_css_mix_blend_mode_passthrough et-last-child\"]/div[@class=\"et_pb_module et_pb_blog_0 et_pb_blog_grid_wrapper et_pb_bg_layout_light\"]/div[@class=\"et_pb_blog_grid clearfix\"]/div[@class=\"et_pb_ajax_pagination_container\"]/div[@class=\"et_pb_salvattore_content\"]/div[@class=\"column size-1of3\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"post-79\")/div[@class=\"entry-content\"]/div[@class=\"et-l et-l--post\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_3 et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_8\"]/div[@class=\"et_pb_column et_pb_column_4_4 et_pb_column_11 et_pb_css_mix_blend_mode_passthrough et-last-child\"]/div[@class=\"et_pb_module et_pb_blog_0 et_pb_blog_grid_wrapper et_pb_bg_layout_light\"]/div[@class=\"et_pb_blog_grid clearfix\"]/div[@class=\"et_pb_ajax_pagination_container\"]/div[@class=\"et_pb_salvattore_content\"]/div[@class=\"column size-1of3\"]"
+                }
+              ],
+              "color": "rgba(75, 0, 130, 0.2)",
+              "mapping": "cards",
+              "customBlockName": "ai-cards-2"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "path": "/footer",
+      "sections": [
+        {
+          "id": "3-1",
+          "blocks": [
+            {
+              "id": "box-id--2064969858",
+              "x": 0,
+              "y": 3392,
+              "width": 2899,
+              "height": 449,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/footer[1]/div[1]/div[1]",
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/footer[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/p[1]",
+                  "xpathWithDetails": "id(\"et-main-area\")/footer[@class=\"et-l et-l--footer\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_1_tb_footer et_pb_with_background et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_1_tb_footer\"]/div[@class=\"et_pb_column et_pb_column_1_3 et_pb_column_1_tb_footer et_pb_css_mix_blend_mode_passthrough\"]/div[@class=\"et_pb_module et_pb_text et_pb_text_0_tb_footer et_pb_text_align_left et_pb_bg_layout_light\"]/div[@class=\"et_pb_text_inner\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/footer[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/h2[1]",
+                  "xpathWithDetails": "id(\"et-main-area\")/footer[@class=\"et-l et-l--footer\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_1_tb_footer et_pb_with_background et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_1_tb_footer\"]/div[@class=\"et_pb_column et_pb_column_1_3 et_pb_column_3_tb_footer et_pb_css_mix_blend_mode_passthrough et-last-child\"]/div[@class=\"et_pb_module et_pb_text et_pb_text_2_tb_footer et_pb_text_align_left et_pb_bg_layout_dark\"]/div[@class=\"et_pb_text_inner\"]"
+                }
+              ],
+              "color": "rgba(75, 0, 130, 0.3)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-footer-1"
+            },
+            {
+              "id": "box-id--2064969827",
+              "x": 0,
+              "y": 3752,
+              "width": 2899,
+              "height": 328,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/footer[1]/div[1]/div[2]",
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/footer[1]/div[1]/div[2]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"et-main-area\")/footer[@class=\"et-l et-l--footer\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_1_tb_footer et_pb_with_background et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_1_tb_footer\"]/div[@class=\"et_pb_column et_pb_column_1_3 et_pb_column_1_tb_footer et_pb_css_mix_blend_mode_passthrough\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/footer[1]/div[1]/div[2]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"et-main-area\")/footer[@class=\"et-l et-l--footer\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_1_tb_footer et_pb_with_background et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_1_tb_footer\"]/div[@class=\"et_pb_column et_pb_column_1_3 et_pb_column_2_tb_footer et_pb_css_mix_blend_mode_passthrough\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/footer[1]/div[1]/div[2]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"et-main-area\")/footer[@class=\"et-l et-l--footer\"]/div[@class=\"et_builder_inner_content et_pb_gutters3\"]/div[@class=\"et_pb_section et_pb_section_1_tb_footer et_pb_with_background et_section_regular\"]/div[@class=\"et_pb_row et_pb_row_1_tb_footer\"]/div[@class=\"et_pb_column et_pb_column_1_3 et_pb_column_3_tb_footer et_pb_css_mix_blend_mode_passthrough et-last-child\"]"
+                }
+              ],
+              "color": "rgba(75, 0, 130, 0.3)",
+              "mapping": "columns",
+              "customBlockName": "ai-footer-columns"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}
