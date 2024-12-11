@@ -1,0 +1,71 @@
+
+.ai-footer-columns-wrapper {
+  background-color: #002147; /* Dark blue background */
+  color: white; /* White text color */
+  padding: 20px;
+}
+
+.ai-footer-columns {
+  display: flex;
+  flex-direction: row; /* Make columns side by side */
+  justify-content: space-between; /* Evenly distribute space between columns */
+  gap: 20px; /* Space between columns */
+}
+
+.ai-footer-columns > div {
+  display: flex;
+  flex-direction: row; /* Ensure elements within each column are side by side */
+  flex: 1; /* Allow columns to grow and fill space equally */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Space between elements inside each column */
+}
+
+.ai-footer-columns > div > div {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically inside each inner div */
+  gap: 10px; /* Space between stacked elements */
+}
+
+.ai-footer-columns-wrapper .button-container {
+  margin: 0; /* Remove default margins */
+}
+
+.ai-footer-columns-wrapper .button-container a {
+  display: block;
+  color: white; /* White text color for links */
+  text-decoration: none; /* Remove underline from links */
+  background-color: transparent; /* Remove button background */
+  padding: 0; /* Remove button padding */
+  border: none; /* Remove button border */
+}
+
+.ai-footer-columns-wrapper .button-container a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+.ai-footer-columns-wrapper h2 {
+  margin-top: 0; /* Remove default top margin */
+  margin-bottom: 10px; /* Space below headers */
+}
+
+.ai-footer-columns-wrapper p {
+  margin: 5px 0; /* Space between paragraphs */
+}
+
+.ai-footer-columns-wrapper img {
+  width: auto; /* Ensure images are not stretched */
+  max-width: 100%; /* Ensure images do not exceed column width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (min-width: 900px) {
+  .ai-footer-columns {
+    align-items: flex-start; /* Align items to the start of each column */
+    flex-direction: row; /* Ensure columns stay in place */
+    gap: 20px;
+  }
+
+  .ai-footer-columns > div {
+    flex: 1; /* Allow columns to grow and fill space equally */
+  }
+}

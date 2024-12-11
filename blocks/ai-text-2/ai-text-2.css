@@ -1,0 +1,41 @@
+
+.ai-text-2-wrapper {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  width: 100%;
+  padding: 0;               /* Remove any padding */
+  margin: 0;                /* Remove any margin */
+}
+
+.ai-text-2 {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  width: 100%;
+  padding: 0;               /* Remove any padding */
+  margin: 0;                /* Remove any margin */
+  height: 100%;             /* Ensure full height */
+}
+
+.ai-text-2 > div {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  width: 100%;
+  flex-direction: row;      /* Ensure elements are side-by-side */
+  height: auto;             /* Ensure div height is auto */
+}
+
+.ai-text-2 h1 {
+  font-size: 2em;           /* Large font size */
+  font-weight: bold;        /* Bold text */
+  color: #002855;           /* Dark blue color */
+  text-align: center;       /* Center text */
+  margin: 0;                /* Remove default margins */
+  padding: 0;               /* Remove any padding */
+  line-height: 1.2;         /* Adjust line height if necessary */
+  display: flex;
+  align-items: center;      /* Center text vertically */
+  height: 100%;             /* Ensure full height */
+}

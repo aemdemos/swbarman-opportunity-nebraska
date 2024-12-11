@@ -1,0 +1,61 @@
+
+.ai-text-1-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px; /* Adjust padding for better spacing */
+  background-color: white; /* Ensures background color is white */
+  text-align: center; /* Centers the text horizontally */
+  position: relative;
+}
+
+.ai-text-1 {
+  max-width: 800px; /* Adjust as necessary */
+}
+
+.ai-text-1 > div {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+}
+
+.ai-text-1 h1 {
+  font-size: 2em;
+  margin: 20px 0 10px 0; /* Adjust margin for better spacing */
+  font-weight: 400; /* Adjust font weight */
+}
+
+.ai-text-1 h2 {
+  font-size: 1.5em;
+  margin: 10px 0 20px 0; /* Adjust margin for better spacing */
+  font-weight: 400; /* Adjust font weight */
+}
+
+.ai-text-1 p {
+  font-size: 1em;
+  margin: 20px 0 30px 0; /* Adjust margin for better spacing */
+  font-weight: 300; /* Adjust font weight */
+}
+
+/* Divider line styling */
+.ai-text-1 h1::after {
+  content: "";
+  display: block;
+  width: 50%; /* Adjust width to make it more subtle */
+  height: 2px;
+  background-color: #c0c0c0; /* Adjust color as needed */
+  margin: 10px auto; /* Adjust vertical spacing and center */
+}
+
+/* Bottom angled section */
+.ai-text-1-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust height as necessary */
+  background-color: #f0f0f0; /* Adjust color as needed */
+  transform: skewY(-5deg); /* Creates the angled effect */
+  transform-origin: bottom right;
+}
