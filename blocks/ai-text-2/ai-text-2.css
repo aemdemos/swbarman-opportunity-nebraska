@@ -1,41 +1,26 @@
 
 .ai-text-2-wrapper {
   display: flex;
-  justify-content: center;  /* Center horizontally */
-  align-items: center;      /* Center vertically */
-  width: 100%;
-  padding: 0;               /* Remove any padding */
-  margin: 0;                /* Remove any margin */
-}
-
-.ai-text-2 {
-  display: flex;
-  justify-content: center;  /* Center horizontally */
-  align-items: center;      /* Center vertically */
-  width: 100%;
-  padding: 0;               /* Remove any padding */
-  margin: 0;                /* Remove any margin */
-  height: 100%;             /* Ensure full height */
+  justify-content: center; /* Center the block horizontally */
+  align-items: center; /* Center the block vertically if the parent has a set height */
+  background-color: white; /* Ensure the background is white */
 }
 
 .ai-text-2 > div {
   display: flex;
-  justify-content: center;  /* Center horizontally */
-  align-items: center;      /* Center vertically */
-  width: 100%;
-  flex-direction: row;      /* Ensure elements are side-by-side */
-  height: auto;             /* Ensure div height is auto */
+  flex-direction: row; /* Ensure flex direction is row */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
 }
 
-.ai-text-2 h1 {
-  font-size: 2em;           /* Large font size */
-  font-weight: bold;        /* Bold text */
-  color: #002855;           /* Dark blue color */
-  text-align: center;       /* Center text */
-  margin: 0;                /* Remove default margins */
-  padding: 0;               /* Remove any padding */
-  line-height: 1.2;         /* Adjust line height if necessary */
-  display: flex;
-  align-items: center;      /* Center text vertically */
-  height: 100%;             /* Ensure full height */
+.ai-text-2 > div > div {
+  text-align: center; /* Center the text within the block */
+  font-weight: 600; /* Adjust the font weight to be slightly lighter */
+  font-size: 2em; /* Adjust the font size to be slightly larger */
+  color: #003366; /* Change the text color to dark blue */
+  font-family: 'Times New Roman', Times, serif; /* Change the font family to a serif font */
+}
+
+#department-of-economic-development-news {
+  margin: 0; /* Remove any default margin around the heading */
 }

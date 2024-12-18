@@ -1,62 +1,81 @@
 
-.ai-cards-2-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 0;
-  margin: 0;
-}
-
-.ai-cards-2 {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
-.ai-cards-2 ul {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
+/* Container for the overall grid */
+.ai-cards-2-wrapper > .ai-cards-2 > ul {
   list-style: none;
-  width: 100%;
-}
-
-.ai-cards-2 li {
-  background-color: var(--background-color);
-  border: 1px solid #dadada;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
-  flex: 1 1 calc(33.333% - 20px); /* Three columns with gap */
-  box-sizing: border-box; /* Ensure padding is included in width calculations */
-  max-width: calc(33.333% - 20px);
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+  justify-content: space-between; /* Ensure spacing between cards */
 }
 
-.ai-cards-2-card-image {
-  width: 100%;
+/* Style for individual cards */
+.ai-cards-2-wrapper > .ai-cards-2 > ul > li {
+  border: 1px solid #dadada;
+  background-color: var(--background-color);
+  border-radius: 5px; /* Add rounded corners */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  width: calc(33.333% - 20px); /* 3 columns layout */
+  box-sizing: border-box;
+}
+
+/* Style for the card image */
+.ai-cards-2-wrapper > .ai-cards-2 .ai-cards-2-card-image {
+  width: 100%; /* Full width image */
   line-height: 0;
 }
 
-.ai-cards-2-card-body {
-  padding: 16px; /* Adjust padding for better spacing */
-}
-
-.ai-cards-2-card-body h2 {
-  font-size: 1.25em;
-  margin: 0.5em 0;
-  color: var(--text-color); /* Use default text color */
-  font-weight: normal; /* Use normal font weight */
-}
-
-.ai-cards-2-card-body p {
-  margin: 0.5em 0;
-  color: var(--text-color); /* Use default text color */
-}
-
-.ai-cards-2 li img {
-  width: 100%;
+.ai-cards-2-wrapper > .ai-cards-2 .ai-cards-2-card-image img {
+  width: 100%; /* Full width image */
+  height: auto; /* Maintain aspect ratio */
   object-fit: cover;
+}
+
+/* Style for the card body */
+.ai-cards-2-wrapper > .ai-cards-2 .ai-cards-2-card-body {
+  padding: 15px; /* Adjust padding for spacing */
+  display: flex;
+  flex-direction: row; /* Ensure elements are side by side */
+  flex-wrap: wrap;
+}
+
+/* Style for the title */
+.ai-cards-2-wrapper > .ai-cards-2 .ai-cards-2-card-body h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #000; /* Change color to black */
+  flex: 1 1 100%; /* Ensure title spans full width */
+}
+
+.ai-cards-2-wrapper > .ai-cards-2 .ai-cards-2-card-body h2 a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from the parent */
+}
+
+/* Style for the date */
+.ai-cards-2-wrapper > .ai-cards-2 .ai-cards-2-card-body p {
+  font-size: 0.9em;
+  color: #777; /* Change color to gray */
+  margin-bottom: 10px;
+  flex: 1 1 100%; /* Ensure date spans full width */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .ai-cards-2-wrapper > .ai-cards-2 > ul {
+    gap: 15px; /* Adjust gap for smaller screens */
+  }
+
+  .ai-cards-2-wrapper > .ai-cards-2 > ul > li {
+    width: calc(50% - 15px); /* 2 columns layout for tablet */
+  }
+}
+
+@media (max-width: 480px) {
+  .ai-cards-2-wrapper > .ai-cards-2 > ul > li {
+    width: 100%; /* 1 column layout for mobile */
+  }
 }

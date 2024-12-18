@@ -1,66 +1,63 @@
 
+/* Wrapper styling */
 .ai-footer-1-wrapper {
-    position: relative;
-    background-color: #002f6c; /* Dark blue background */
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: unset;
-    padding: 0;
+  position: relative;
+  background-color: #002f6c; /* Dark blue background color */
+  color: #fff;
+  padding: 20px;
+  overflow: hidden;
 }
 
+/* Wavy top background */
 .ai-footer-1-wrapper::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 120px; /* Adjust height as needed */
-    background: linear-gradient(to bottom, white 50%, #a6b989 50%);
-    z-index: 1;
-    clip-path: polygon(0 0, 100% 0, 100% 40%, 0 100%);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust height for desired wave effect */
+  background: linear-gradient(to bottom, #d3dbcb 0%, #d3dbcb 50%, #002f6c 50%, #002f6c 100%);
+  z-index: 0;
 }
 
+/* Main block styling */
 .ai-footer-1-wrapper > .ai-footer-1 {
-    display: flex;
-    flex-direction: row; /* Ensure elements are side by side */
-    width: 100%;
-    padding: 20px;
-    z-index: 2; /* Ensure content is on top of the wavy border */
+  display: flex;
+  flex-direction: row; /* Ensure content is aligned horizontally */
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the top */
+  position: relative;
+  z-index: 1;
 }
 
+/* Individual content sections */
 .ai-footer-1-wrapper > .ai-footer-1 > div {
-    display: flex;
-    flex-direction: row; /* Ensure elements inside are side by side */
-    flex: 1;
-    padding: 0 20px;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: row; /* Ensure inner content is aligned horizontally */
+  flex: 1;
+  padding: 10px;
 }
 
-.ai-footer-1-wrapper > .ai-footer-1 > div:nth-child(2) {
-    border-left: 1px solid #ffffff; /* Vertical divider */
-    border-right: 1px solid #ffffff; /* Vertical divider */
-    padding-left: 20px;
-    padding-right: 20px;
+/* Specific styling for the logo section */
+.ai-footer-1-wrapper > .ai-footer-1 > div:first-child {
+  flex: 0 0 20%; /* Adjust width of the logo section */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.ai-footer-1-wrapper picture {
-    display: block;
-    margin: 0 auto;
+/* Specific styling for "CONNECT" and "RESOURCES" sections */
+.ai-footer-1-wrapper > .ai-footer-1 > div:nth-child(2),
+.ai-footer-1-wrapper > .ai-footer-1 > div:nth-child(3) {
+  flex: 0 0 40%; /* Adjust width of the middle and right sections */
+  display: flex;
+  flex-direction: column; /* Ensure the links are stacked vertically */
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-@media (max-width: 600px) {
-    .ai-footer-1-wrapper > .ai-footer-1 {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .ai-footer-1-wrapper > .ai-footer-1 > div {
-        flex-direction: column;
-        padding: 10px 0;
-    }
-
-    .ai-footer-1-wrapper > .ai-footer-1 > div:nth-child(2) {
-        border: none;
-    }
+/* Ensure the content spans the entire width of the page */
+.ai-footer-1-container > .ai-footer-1-wrapper {
+  max-width: unset;
+  padding: 0;
 }

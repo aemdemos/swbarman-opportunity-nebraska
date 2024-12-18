@@ -1,14 +1,16 @@
 
+/* General styles for the header */
 .header-wrapper {
     background-color: #003366; /* Dark blue background */
     width: 100%;
+    padding: 10px 0; /* Add vertical padding for better alignment */
 }
 
 .header-wrapper .nav-wrapper {
     position: fixed;
     z-index: 2;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Ensure space between logo and navigation items */
     align-items: center;
     width: 100%;
     max-width: 1264px;
@@ -18,16 +20,16 @@
 
 header {
     display: flex;
-    height: var(--nav-height);
     align-items: center;
 }
 
 header nav {
     display: flex;
     flex-direction: row; /* Ensure horizontal alignment */
-    justify-content: space-between;
+    justify-content: flex-start; /* Align items to the start */
     align-items: center;
     width: 100%;
+    max-width: 1264px; /* Center content within max-width */
 }
 
 header nav .nav-hamburger {
@@ -40,11 +42,12 @@ header nav .nav-brand {
     flex-shrink: 0;
     display: flex;
     align-items: center;
+    margin-right: 20px; /* Reduce margin to bring navigation items closer */
 }
 
 header nav .nav-brand img {
     width: auto;
-    height: var(--nav-height); /* Ensure logo height is consistent */
+    height: 30px; /* Keep the height for better alignment */
     object-fit: contain; /* Prevent stretching */
 }
 
@@ -52,15 +55,15 @@ header nav .nav-sections {
     order: 2; /* Navigation comes second */
     display: flex;
     flex: 1 1 auto;
-    justify-content: flex-start;
+    justify-content: flex-start; /* Align navigation items to the left */
     align-items: center;
-    margin-left: 24px; /* Add some margin to separate from logo */
+    gap: 40px; /* Reduce gap to ensure proper spacing between navigation items */
 }
 
 header nav .nav-sections ul {
     display: flex;
     flex-direction: row; /* Ensure horizontal alignment */
-    gap: 24px;
+    gap: 40px; /* Reduce gap to ensure proper spacing between navigation items */
     margin: 0;
     padding: 0;
     list-style: none;
@@ -100,4 +103,9 @@ header nav .nav-sections ul > li ul > li {
 header nav .nav-tools {
     order: 3; /* Tool section comes third */
     display: none; /* Hides the nav-tools section */
+}
+
+/* Ensure proper vertical alignment of navigation items */
+.header-wrapper .nav-wrapper, header nav .nav-sections ul {
+    align-items: center;
 }
